@@ -66,7 +66,7 @@ const Contato = ({
           {estaEditando ? (
             <>
               <S.StyledInputMask
-                mask="(99) 9999-9999"
+                mask="(99) 99999-9999"
                 value={telefone}
                 onChange={(evento) => setTelefone(evento.target.value)}
               />
